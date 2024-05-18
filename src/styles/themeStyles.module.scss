@@ -1,0 +1,17 @@
+/* VARIABLES */
+
+$background-color: #feefe5;
+$headline-color: #00916e;
+$text-color: #ee6123;
+
+$headline-size: 24px;
+$text-size: 16px;
+
+/* MIXINS */
+
+@mixin container-spacing {
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

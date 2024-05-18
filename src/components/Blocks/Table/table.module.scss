@@ -1,0 +1,22 @@
+@import "../../../styles/themeStyles.module.scss";
+
+.tableContainer {
+  @include container-spacing;
+
+  h2 {
+    color: $headline-color;
+    font-size: $headline-size;
+  }
+
+  .htmlContainer {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    p {
+      color: $text-color;
+      font-size: $text-size;
+    }
+  }
+}
