@@ -24,7 +24,7 @@ export default {
             rate: "$16.600",
           },
         ],
-        text: "<p>*estos valores corresponden a clases en el espacio propio del profesor, no a domicilio.</p><p>Última actualización: Junio 2024<br />Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
+        text: "<p>*estos valores corresponden a clases en el espacio propio del profesor, no a domicilio.</p><p>Última actualización: Junio 2024</p><p>Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
       },
     },
     {
@@ -65,7 +65,7 @@ export default {
       component: "text",
       content: {
         title: "Links a tarifarios de otras regiones del país",
-        text: "<a href='https://docs.google.com/spreadsheets/d/1HkUYR9tmLMmpNHlZRvEdVhx62bGCAawayEy774Ph_es/edit#gid=0' target='_blank'>Tarifario de A.P.M. (Sindicato de Personas Músicas de La Plata, Berisso, Ensenada y Magdalena)</a><a href='https://sindicatomusicoscordoba.org.ar/tarifarios/' target='_blank'>Tarifario del Sindicato de Músicos de Córdoba</a>",
+        text: "<ul><li><a href='https://docs.google.com/spreadsheets/d/1HkUYR9tmLMmpNHlZRvEdVhx62bGCAawayEy774Ph_es/edit#gid=0' target='_blank'>Tarifario de A.P.M. (Sindicato de Personas Músicas de La Plata, Berisso, Ensenada y Magdalena)</a></li><li><a href='https://sindicatomusicoscordoba.org.ar/tarifarios/' target='_blank'>Tarifario del Sindicato de Músicos de Córdoba</a></li></ul>",
       },
     },
     {

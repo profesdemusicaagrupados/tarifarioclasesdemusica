@@ -19,6 +19,18 @@
 
     a {
       @include link-styles;
+      line-height: 32px;
+    }
+
+    ul {
+      list-style-position: inside;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      li::marker {
+        color: $text-highlight;
+      }
     }
   }
 }
