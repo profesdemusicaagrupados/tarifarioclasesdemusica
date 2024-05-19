@@ -1,0 +1,14 @@
+@import "../../../styles/themeStyles.module.scss";
+
+.footerContainer {
+  @include container-spacing;
+
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    @include headline-styles;
+    font-size: 32px;
+  }
+
+}

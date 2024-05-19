@@ -1,0 +1,42 @@
+@import "../../../styles/themeStyles.module.scss";
+
+.newsletterContainer {
+  @include container-spacing;
+
+    h2 {
+        @include headline-styles;
+    }
+
+    p {
+        @include text-styles;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        input {
+            padding: 8px;
+            font-size: 16px;
+            color: #00916e;
+        }
+
+        input:focus {
+            border: none;
+            outline: none;
+        }
+
+        button {
+            padding: 8px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 0;
+            color: $background-color;
+            background-color: $text-highlight;
+            font-size: 16px;
+        }
+
+    }
+
+}
