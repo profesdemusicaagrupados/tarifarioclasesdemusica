@@ -1,9 +1,7 @@
 import Block from "@/components/Block/Block";
-import apiGet from "@/lib/apiGet";
+import data from "@/data/data";
 
-export default async function Home() {
-  const data = await apiGet();
-
+export default function Home() {
   return (
     <main>
       {data.blocks.map((block, key) => (
