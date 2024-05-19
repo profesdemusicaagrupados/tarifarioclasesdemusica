@@ -1,9 +1,8 @@
 import Block from "@/components/Block/Block";
+import apiGet from "@/lib/apiGet";
 
 export default async function Home() {
-  const res = await fetch(process.env.LOCALHOST + "/api/data");
-
-  const data = await res.json();
+  const data = await apiGet();
 
   return (
     <main>
