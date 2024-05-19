@@ -4,6 +4,8 @@
   @include container-spacing;
 
   hr {
-    border: .5px solid $headline-color;
+    border: 0.5px solid $headline-color;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
