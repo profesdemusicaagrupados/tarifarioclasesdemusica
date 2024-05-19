@@ -9,6 +9,7 @@
 
   p {
     @include text-styles;
+    line-height: 32px;
   }
 
   form {
