@@ -14,12 +14,14 @@
 
     .tableRow {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
+      gap: 32px;
 
       .seniorityColumn {
         display: flex;
         flex-direction: column;
         gap: 8px;
+        width: 140px;
 
         .columnTitle {
           @include text-styles;
