@@ -23,7 +23,6 @@
 
         .columnTitle {
           @include text-styles;
-          text-transform: uppercase;
         }
 
         .columnFigure {
@@ -39,7 +38,6 @@
 
         .columnTitle {
           @include text-styles;
-          text-transform: uppercase;
         }
 
         .columnFigure {
@@ -61,6 +59,22 @@
 
     a {
       @include link-styles;
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .tableContainer {
+    .table {
+      .tableRow {
+        justify-content: flex-start;
+        gap: 32px;
+
+        .seniorityColumn {
+          width: 140px;
+        }
+
+      }
     }
   }
 }

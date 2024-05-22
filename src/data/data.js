@@ -3,7 +3,7 @@ export default {
     {
       component: "hero",
       content: {
-        title: "Tarifario clases de música",
+        title: "Tarifario para clases de música",
       },
     },
     {
@@ -12,19 +12,19 @@ export default {
         title: "Clase individual de 1 hora",
         table: [
           {
-            seniority: "< 5 años",
+            seniority: "Hasta 5 años",
             rate: "$8.300",
           },
           {
-            seniority: "5 - 15 años",
+            seniority: "De 5 a 15 años",
             rate: "$12.450",
           },
           {
-            seniority: "> 15 años",
+            seniority: "Más de 15 años",
             rate: "$16.600",
           },
         ],
-        text: "<p>*estos valores corresponden a clases en el espacio propio del profesor, no a domicilio.</p><p>Última actualización: Junio 2024</p><p>Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
+        text: "<p>* este valor no contempla los gastos extra que requieran las clases a domicilio.</p><p>Última actualización: Junio 2024</p><p>Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
       },
     },
     {

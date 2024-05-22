@@ -19,7 +19,6 @@ $text-highlight: #FA003F;
   color: $headline-color;
   font-size: 24px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 @mixin text-styles {
@@ -33,4 +32,9 @@ $text-highlight: #FA003F;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
 }
