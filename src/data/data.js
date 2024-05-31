@@ -24,7 +24,7 @@ export default {
             rate: "$16.600",
           },
         ],
-        text: "<p>* este valor no contempla los gastos extra que requieran las clases a domicilio.</p><p>Última actualización: Junio 2024</p><p>Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
+        text: "<p>* este valor no contempla los gastos extra que requieran las clases a domicilio.</p><p>Última actualización: 14 de mayo de 2024</p><p>Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
       },
     },
     {
