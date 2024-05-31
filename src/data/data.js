@@ -3,7 +3,7 @@ export default {
     {
       component: "hero",
       content: {
-        title: "Tarifario para clases de música",
+        title: ['TARIFARIO', 'CLASES de MÚSICA', 'CABA y AMBA']
       },
     },
     {
