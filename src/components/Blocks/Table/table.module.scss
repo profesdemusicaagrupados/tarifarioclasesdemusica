@@ -57,10 +57,12 @@
 
     p {
       @include text-styles;
+      line-height: 32px;
     }
 
     a {
       @include link-styles;
+      line-height: 32px;
     }
   }
 }
