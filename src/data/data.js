@@ -3,7 +3,7 @@ export default {
     {
       component: "hero",
       content: {
-        title: ['TARIFARIO', 'CLASES de MÚSICA', 'CABA y AMBA']
+        title: ["TARIFARIO", "CLASES de MÚSICA", "CABA y AMBA"],
       },
     },
     {
@@ -13,18 +13,18 @@ export default {
         table: [
           {
             seniority: "Hasta 5 años",
-            rate: "$10.244,35",
+            rate: "$10.337,16",
           },
           {
             seniority: "De 5 a 15 años",
-            rate: "$15.366,53",
+            rate: "$15.505,73",
           },
           {
             seniority: "Más de 15 años",
-            rate: "$20.488,70",
+            rate: "$20.674,31",
           },
         ],
-        text: "<p>Estos valores no contemplan los gastos extra que requieran las clases a domicilio.<br />Última actualización: 22 de enero de 2025.<br />Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
+        text: "<p>Estos valores no contemplan los gastos extra que requieran las clases a domicilio.<br />Última actualización: 10 de marzo de 2025.<br />Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
       },
     },
     {
