@@ -77,7 +77,7 @@ export default {
               "Tarifa fija por clase",
               "Pago por clase. Recomendación: cobrar 48hs antes de la clase",
               "Valor clase tarifario x120%",
-              "",
+              "—",
             ],
           ],
         },
