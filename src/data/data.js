@@ -34,7 +34,74 @@ export default {
       component: "text",
       content: {
         title: "¿Cómo usar el tarifario?",
-        text: "<p>Esta herramienta es una orientación para saber cuánto cobrar por las clases particulares de música. Las tarifas del cuadro son referencias de lo que consideramos como valores mínimos por nuestro trabajo.</p>",
+        text: "<p>Esta herramienta es una orientación para saber cuánto cobrar por las clases particulares de música. Las tarifas del cuadro son referencias de lo que consideramos como valores mínimos por nuestro trabajo.</p><p>Al tratarse de un trabajo autónomo, dependemos exclusivamente de nuestras horas de trabajo para percibir ingresos. Por lo tanto, no contamos con vacaciones pagas, licencias por enfermedad o maternidad ni aguinaldo. La tarifa debería contemplar esta situación de informalidad y, además de la hora de clase, cubrir los gastos de herramientas de trabajo, tareas administrativas, alquiler del espacio y mantenimiento, servicios, impuestos, aportes jubilatorios, obra social, entre otros.</p>",
+      },
+    },
+    {
+      component: "separator",
+    },
+    {
+      component: "threeColumnsTable",
+      content: {
+        title: "Modalidades de trabajo y cobro",
+        text: "<p>En el siguiente cuadro te mostramos las modalidades de trabajo más usuales: clases regulares semanales y clases sueltas. Para cada modalidad, te recomendamos las opciones de organización y cobro que más respaldo dan dentro de la informalidad.</p>",
+        table: {
+          columns: [
+            "Modalidad",
+            "Cantidad de clases",
+            "Tipo de tarifa",
+            "Modalidad de pago",
+            "Arancel",
+            "Feriados",
+          ],
+          rows: [
+            [
+              "Mes de clases regulares y semanales (plan A)",
+              "1 hora semanal (día y horario fijo).",
+              "Tarifa fija por mes. Independientemente de la cantidad de clases.",
+              "Pago por adelantado del arancel mensual.",
+              "Valor clase tarifario x4.",
+              "Ese día no se hace la clase y no se recupera (se compensa con los meses de 5 clases).",
+            ],
+            [
+              "Mes de clases regulares y semanales (plan B)",
+              "1 hora semanal (día y horario fijo).",
+              "Tarifa variable según la cantidad de clases que haya en el mes.",
+              "Pago por adelantado del arancel mensual.",
+              "Valor clase tarifario x cantidad de clases del mes.",
+              "Se acuerda a principio de mes si esa clase se hace o no.",
+            ],
+            [
+              "Clases sueltas",
+              "1 hora.",
+              "Tarifa fija por clase.",
+              "Pago por clase. Recomendación: cobrar 48hs antes de la clase.",
+              "Valor clase tarifario x120%.",
+              "",
+            ],
+          ],
+        },
+      },
+    },
+    {
+      component: "text",
+      content: {
+        title: "Recuperación de clases",
+        text: "<p>Se coordina otro horario dentro del mes según mutuo acuerdo. Para reprogramar una clase cancelada por el alumno se necesita un preaviso de mínimo 48hs.</p>",
+      },
+    },
+    {
+      component: "text",
+      content: {
+        title: "Cese de clases",
+        text: "<p>En caso de no continuar con las clases, se pide un preaviso de 2 semanas, como mínimo.</p>",
+      },
+    },
+    {
+      component: "text",
+      content: {
+        title: "Admisión",
+        text: "<p>Se sugiere tener una entrevista telefónica o por videollamada previa en caso de no conocer al alumno.</p>",
       },
     },
     {

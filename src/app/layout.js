@@ -2,15 +2,15 @@ import "@/styles/globals.scss";
 import { Nanum_Gothic } from "next/font/google";
 
 export const metadata = {
-  title: "Tarifario clases de música 2024 - TRAMA",
+  title: "Tarifario clases de música " + new Date().getFullYear() + " - TRAMA",
   description:
-    "Esta herramienta es una orientación para saber cuánto cobrar por las clases particulares de música. Las tarifas del cuadro son referencias de lo que consideramos como valores mínimos por nuestro trabajo. ",
+    "Esta herramienta es una orientación para saber cuánto cobrar por las clases particulares de música. Las tarifas del cuadro son referencias de lo que consideramos como valores mínimos por nuestro trabajo.",
 };
 
 const nanumGothic = Nanum_Gothic({
   subsets: ["latin"],
   weight: ["400", "700", "800"],
-  display: 'swap'
+  display: "swap",
 });
 
 export default function RootLayout({ children }) {
