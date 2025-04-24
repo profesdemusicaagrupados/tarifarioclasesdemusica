@@ -57,6 +57,8 @@
 
       .columnRowTitle {
         @include text-styles;
+        font-weight: bold;
+        text-transform: uppercase;
       }
 
       .columnRowValue {
@@ -74,6 +76,7 @@
         font-variant: small-caps;
         text-transform: lowercase;
         font-size: 24px;
+        font-weight: bold;
       }
     }
   }
@@ -83,32 +86,50 @@
   .threeColumnsTableContainer {
     .tableContainer {
       flex-direction: row;
-      gap: 32px;
+      gap: normal;
+      border: 1px solid $headline-color;
+      border-bottom: none;
+      width: max-content;
 
       .columnTitlesContainer {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: normal;
 
         .columnTitleCell {
+          display: flex;
+          align-items: center;
+          padding: 8px 16px;
+          border-bottom: 1px solid $headline-color;
+
           .columnTitleValue {
             @include text-styles;
             color: $headline-color;
           }
 
-          min-height: 48px;
+          min-height: 80px;
         }
         .row0 {
-          visibility: hidden;
+          .columnTitleValue {
+            visibility: hidden;
+          }
           min-height: 48px;
+          background-color: rgb(238, 97, 35, 0.9);
         }
       }
 
       .columnRowsContainer {
         width: 25vw;
+        gap: normal;
+        border-left: 1px solid $headline-color;
 
         .columnRowCell {
-          min-height: 48px;
+          min-height: 80px;
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          padding: 8px 16px;
+          border-bottom: 1px solid $headline-color;
 
           .columnRowTitle {
             display: none;
@@ -116,18 +137,38 @@
 
           .columnRowValue {
             color: $text-color;
+            font-weight: normal;
           }
         }
 
         .row0 {
           min-height: 48px;
+          background-color: rgb(238, 97, 35, 0.9);
 
           .columnRowValue {
             font-variant: normal;
             text-transform: none;
             font-size: 16px;
-            color: $headline-color;
+            color: $background-color;
           }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .threeColumnsTableContainer {
+    .tableContainer {
+      .columnTitlesContainer {
+        .columnTitleCell {
+          min-height: 48px;
+        }
+      }
+
+      .columnRowsContainer {
+        .columnRowCell {
+          min-height: 48px;
         }
       }
     }
