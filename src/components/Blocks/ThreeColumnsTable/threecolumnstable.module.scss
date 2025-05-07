@@ -52,18 +52,21 @@
 
     .columnRowCell {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       gap: 8px;
 
       .columnRowTitle {
         @include text-styles;
         font-weight: bold;
         text-transform: uppercase;
+        width: 50%;
+        max-width: 250px;
       }
 
       .columnRowValue {
         @include text-styles;
         color: $headline-color;
+        width: 50%;
       }
     }
 
@@ -77,6 +80,7 @@
         text-transform: lowercase;
         font-size: 24px;
         font-weight: bold;
+        width: 100%;
       }
     }
   }
@@ -127,17 +131,19 @@
           min-height: 80px;
           display: flex;
           align-items: center;
-          flex-direction: row;
           padding: 8px 16px;
           border-bottom: 1px solid $headline-color;
 
           .columnRowTitle {
             display: none;
+            width: auto;
+            max-width: none;
           }
 
           .columnRowValue {
             color: $text-color;
             font-weight: normal;
+            width: auto;
           }
         }
 
