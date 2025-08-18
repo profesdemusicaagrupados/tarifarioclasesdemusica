@@ -24,7 +24,7 @@ export default {
             rate: "$22.987,06",
           },
         ],
-        text: "<p>Estos valores no contemplan los gastos extra que requieran las clases a domicilio.<br />Última actualización: 30 de julio de 2025.<br />Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
+        text: "<p>Estos valores no contemplan los gastos extra que requieran las clases a domicilio.<br />Última actualización: 18 de agosto de 2025.<br />Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
       },
     },
     {
