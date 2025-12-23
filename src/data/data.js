@@ -13,18 +13,18 @@ export default {
         table: [
           {
             seniority: "Hasta 5 años",
-            rate: "$12.137,99",
+            rate: "$12.573,29",
           },
           {
             seniority: "De 5 a 15 años",
-            rate: "$18.206,98",
+            rate: "$18.859,94",
           },
           {
             seniority: "Más de 15 años",
-            rate: "$24.275,98",
+            rate: "$25.146,58",
           },
         ],
-        text: "<p>Estos valores no contemplan los gastos extra que requieran las clases a domicilio.<br />Última actualización: 5 de diciembre de 2025.<br />Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
+        text: "<p>Estos valores no contemplan los gastos extra que requieran las clases a domicilio.<br />Última actualización: 23 de diciembre de 2025.<br />Fuente de referencia: canasta básica total tipo 2 (según INDEC).</p>",
       },
     },
     {
